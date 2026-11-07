@@ -24,8 +24,10 @@ import com.banco.contas_servic.repository.ContaRepository;
 import com.banco.contas_servic.service.ContaService;
 
 @SpringBootTest
-class ConcorrenciaTest {
+class ConcorrenciaTest { 
 
+ // testes de concorrencia 
+ 
     @Autowired
     private ContaService contaService;
 
